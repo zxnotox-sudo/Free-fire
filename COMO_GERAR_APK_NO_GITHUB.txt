@@ -1,0 +1,18 @@
+COMO GERAR O APK PELO GITHUB (SEM ANDROID STUDIO)
+
+1. Extraia este ZIP.
+2. Crie uma conta ou entre em https://github.com/.
+3. Crie um repositório novo (pode ser privado).
+4. Envie TODOS os arquivos e pastas que estão dentro de FF_Painel_Android para o repositório.
+   Importante: envie também a pasta oculta .github/workflows.
+5. Abra a aba Actions do repositório.
+6. Se aparecer a opção para habilitar Actions, habilite.
+7. Abra o workflow "Build APK" e toque em "Run workflow".
+8. Aguarde a execução terminar com sucesso.
+9. Abra a execução concluída, vá até Artifacts e baixe "Painel-FF-debug-apk".
+10. Extraia o ZIP baixado pelo GitHub. O arquivo .apk estará dentro.
+
+OBSERVAÇÃO:
+- Isto configura uma compilação automática na nuvem; o APK ainda não foi compilado neste pacote.
+- O APK debug é adequado para testes e instalação manual, mas não é uma versão publicada/assinada para loja.
+- Revise o código antes de instalar ou compartilhar qualquer APK.
